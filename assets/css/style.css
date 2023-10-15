@@ -1,0 +1,119 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,500;0,600;0,700;0,800;0,900;1,600;1,700&display=swap');
+
+/* assets variable */
+:root{
+    --color-green: #B8D432;
+    --color-white: #fff;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    font-family: 'Arial, Helvetica, sans-serif';
+}
+
+body{
+    background: var(--color-white);
+    
+}
+.header{
+    width: 100%;
+    height: auto;
+    margin: 10px;
+}
+.header .navbar{
+    display: flex;
+    width: 70%;
+    margin-top: 20px;
+    list-style: none;
+    margin-left: 180px;
+    justify-content: center;    
+    padding-top: 10px;
+}
+.header .navbar li a{
+    margin: 60px;
+    font-size: 35px;
+    justify-content: space-between;
+}
+.navbar li a i {
+    color: var(--color-green);
+}
+.header .button-header{   
+    float: inline-end;
+    margin-right: 80px;
+    margin-top: 25px;
+}
+.header .button-header .button-login{
+    background: #B8D432;   
+    text-decoration: none;
+    color: var(--color-white);
+    padding: 8px;
+    border-radius: 6px;
+    margin-right: 10px;
+}
+.header .button-header .button-register{
+    background: #17594A;   
+    text-decoration: none;
+    color: var(--color-white);
+    padding: 8px;
+    border-radius: 6px; 
+    margin-right: 10px;
+}
+.container{    
+    display: flex;
+    
+}    
+.container .card-container{    
+    margin: 10px;
+        
+}    
+.card-container .content-left{    
+    float: inline-start;
+    width: 50%;
+    height: 100vh;
+    border-radius: 10px;
+    background: var(--color-green);
+}  
+.card-container .content-left img{
+    width: 80%;
+    margin-left: 70px;
+}  
+.content-left h1{
+    color: #000;
+    font-family: Horizon;
+   
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 70px; 
+    text-align: start;
+    margin-left: 40px;
+}
+
+
+.card-container .content-right{        
+    padding: 10px;      
+    width: 42%;
+    float: inline-end;
+    margin-top: 30px;
+    margin-right: 70px;
+} 
+.card-container .content-right img{
+    width: 60%;
+    /* width: 70%; */
+    margin-left: 90px;
+}
+.card-container p{ 
+    color: #000;
+    /* font-family: Horizon; */
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    text-align: start;
+    line-height: 17px;
+}
+
+    
