@@ -27,7 +27,7 @@ body{
 .header .navbar{
     display: flex;
     width: 70%;
-    margin-top: 20px;
+    margin-top: px;
     list-style: none;
     margin-left: 180px;
     justify-content: center;    
@@ -44,7 +44,8 @@ body{
 .header .button-header{   
     float: inline-end;
     margin-right: 80px;
-    margin-top: 25px;
+    margin-top: 20px;
+    
 }
 .header .button-header .button-login{
     background: #B8D432;   
@@ -60,7 +61,6 @@ body{
     color: var(--color-white);
     padding: 8px;
     border-radius: 6px; 
-    margin-right: 10px;
 }
 .container{    
     display: flex;
@@ -73,18 +73,32 @@ body{
 .card-container .content-left{    
     float: inline-start;
     width: 50%;
-    height: 100vh;
     border-radius: 10px;
     background: var(--color-green);
+
 }  
-.card-container .content-left img{
-    width: 80%;
+.card-container .content-left .carsoul{
+    width: 100%;
+    /* text-align: center; */
+}
+.carsoul img{
+    width: 57%;
+    margin-left: 50px;
+}
+.content-left .icon-social-media{
+    margin-top: 20px;
+    display: inline-block;
+    justify-content: center;
     margin-left: 70px;
 }  
+.icon-social-media a{
+    margin-right: 20px;
+    font-size: 2rem;
+    color: black;
+}
 .content-left h1{
     color: #000;
     font-family: Horizon;
-   
     font-size: 80px;
     font-style: normal;
     font-weight: 700;
@@ -92,8 +106,6 @@ body{
     text-align: start;
     margin-left: 40px;
 }
-
-
 .card-container .content-right{        
     padding: 10px;      
     width: 42%;
@@ -103,7 +115,6 @@ body{
 } 
 .card-container .content-right img{
     width: 60%;
-    /* width: 70%; */
     margin-left: 90px;
 }
 .card-container p{ 
@@ -113,7 +124,8 @@ body{
     font-style: normal;
     font-weight: 700;
     text-align: start;
-    line-height: 17px;
+    line-height: 24px;
+    width: 80%;
 }
 
     
